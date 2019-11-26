@@ -11,7 +11,7 @@ local_profiles = {'prod', 'dev'}
 client = boto3.client('route53')
 go_daddy_key = ""
 go_daddy_secret = ""
-auth_key = 'sso-key ' + go_daddy_key + ':' + go_daddy_secret'
+auth_key = 'sso-key ' + go_daddy_key + ':' + go_daddy_secret
 
 dump = [['Host', 'Issuer', 'Start', 'End', 'Expired', 'Subject']]
 
